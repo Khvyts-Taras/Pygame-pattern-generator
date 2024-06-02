@@ -38,7 +38,7 @@ while 1:
 				pygame.display.set_caption(f"a={a} b={b} c={c}")
 
 
-	if frame %200 == 0:
+	if frame %400 == 0:
 		color = (random.randint(0, 255), random.randint(0, 255), random.randint(0, 255))
 		points.append([random.random()*2-0.5, random.random()*2-0.5, color])
 
